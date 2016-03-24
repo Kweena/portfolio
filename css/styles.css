@@ -1,2 +1,54 @@
 body{
-};
+	font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Cinzel';
+	font-weight: normal;
+}
+
+/*
+******************************************************
+SIDE BAR
+******************************************************
+*/
+.side-menu{
+	width: 100px;
+	height: 100%;
+	background: #E6E6E6;
+	position: fixed;
+	z-index: 1;
+}
+
+.main-menu{
+
+}
+
+.unstyled-list{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main-menu ul{
+
+}
+
+.social-menu{
+
+}
+
+/*
+******************************************************
+MAIN CONTENT
+******************************************************
+*/
+
+.main-content{
+	background: #333;
+	padding-left: 100px; 
+}
+
+.section{
+	background: #333;
+	color:#E6E6E6;
+}
