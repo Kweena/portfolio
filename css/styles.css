@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5,h6 {
 	text-transform: uppercase;
 }
 
-.Logo{
+.logo{
 	display: block;
 	position: relative;
 	top: 30px;
@@ -70,6 +70,10 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 }
 .text-center{text-align: center;}
+
+.img-responsive{
+	width: 100%;
+}
 
 /*******************************************************
 						GRID
@@ -147,7 +151,7 @@ h4{
 	background-image: linear-gradient(to bottom, rgba(186, 139, 2, 0.31), rgba(24, 24, 24, 0.46)),url(../images/city.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center bottom;
+	background-position: center;
 	color: black;
 	font-family: 'Cinzel';
 }
@@ -175,4 +179,97 @@ h4{
 .section .btn-primary:hover{
 	background : rgba(169, 140, 60, 0.8) ;
 	text-decoration: none;	
+}
+
+.slider-wrapper{
+	overflow: hidden;
+}
+
+.slider{
+	width: 450px;
+}
+
+@media screen and (max-width: 1024px){
+	.slider{
+		width: 200px;
+	}
+}
+
+.slick-dots{
+	list-style: none;
+	margin:10px 0;
+	padding:0;
+	text-align: center;
+}
+
+.slick-dots li{
+	display: inline-block;
+	margin-right: 5px;
+}
+.slick-dots li button{
+	background-color:  #A98C3C;
+	font-size: 0;
+	padding: 5px; 
+	border: none;
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	cursor: pointer;
+	outline: 0;
+}
+
+.slick-dots li.slick-active button{
+	background : rgba(169, 140, 60, 0.8) ;
+}
+
+.btn-toogle-menu{
+	display: none;
+}
+
+@media screen and (max-width: 600px){
+	.side-menu{
+		height: 50px;
+		width: 100%;
+	}
+	.side-menu a{
+		padding: 10px;
+		display: block;
+	}
+	.logo{
+		top: 5px;
+		position: relative;
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.main-menu{
+		transform : none;
+		position: relative;
+		float: left;
+		width: 100%;
+		margin-top: -7px;
+		top: 0;
+	}
+	.main-menu ul{
+		display: block;
+		background: white;
+	}
+	.main-content{
+		padding-left: 0;
+	}
+	.social-menu{
+		display: none;
+	}
+	.hide-menu{
+		display: none;
+	}
+	.btn-toggle-menu{
+		display: block;
+		position: absolute;
+		right: 0px;
+		top: 0;
+		font-size: 21pt;
+		padding: 10px 20px;
+		cursor: pointer;
+	}
 }

@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width"/>
 		<title>Michael Fossoul - Développeur</title>
 		<link rel="stylesheet" href="css/vendor/jquery.fullpage.css">
 		<link rel="stylesheet" href="css/vendor/slick.css">
@@ -13,10 +14,15 @@
 	</head>
 	<body>
 		<aside class="side-menu">
-			<a class="Logo text-center" href="">
+			<a class="logo text-center" href="">
 				<img src="images/Logo-01.svg" alt="">
 			</a>
-			<nav class="main-menu">
+			<div class="btn-toggle-menu">
+				<i class="fa fa-bars"></i>
+			</div>
+			
+
+			<nav class="main-menu hide-menu">
 				<ul class="unstyled-list">
 					<li><a href="#home">Home</a></li>
 					<li><a href="#about">About</a></li>
@@ -111,22 +117,37 @@
 					<h3>Mes projets</h3>
 			</div>			
 					<div class="col col-3">
-						<h4>Projet</h4>
-						<p>lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit. in eu dapibus felis</a> .</p>
-						<p> 
+							
+						<div class="slider-wrapper">
+							<div class="slider">
+							  <div><img class="img-responsive" src="images/vladys/Valdis-story.jpg" alt=""></div>
+							  <div><img class="img-responsive" src="images/vladys/Vlad.jpg" alt=""></div>
+							  <div><img class="img-responsive" src="images/vladys/Vlad.jpg" alt=""></div>
+							</div>	
+						</div>
+						<h4>Vladis Abyssal</h4>
+							<p>lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit. in eu dapibus felis</a> .</p>
+							<p> 
 							praesent et mauris fermentum, imperdiet diam non, facilisis eros. 
 							nunc fringilla, leo sit amet luctus mattis, 
 							nisl tellus fringilla eros, eget iaculis orci lorem non dolor.
 							uis vulputate pharetra ligula vel convallis. praesent et feugiat tellus. 
 							proin sit amet faucibus nisl, eget commodo tellus. 
 							nam eget nulla a turpis vulputate fermentum.
-						</p>
+							</p>
 						<p class="text-center">
 							<a class="btn-primary" href="#">Voir mon jeu</a>
 						</p>
 					</div>
 					<div class="col col-3">
-						<h4>Etudes</h4>
+						<div class="slider-wrapper">
+							<div class="slider">
+							  <div><img class="img-responsive" src="images/Darkest/Dkd.jpg" alt=""></div>
+							  <div><img class="img-responsive" src="images/Darkest/Dkd.jpg" alt=""></div>
+							  <div><img class="img-responsive" src="images/Darkest/Dark.jpg" alt=""></div>
+							</div>	
+						</div>
+						<h4>Darkest Dungeon</h4>
 							<p>lorem ipsum dolor sit amet, consectetur adipiscing elit. in eu dapibus felis.</p>
 						<p> 
 							praesent et mauris fermentum, imperdiet diam non, facilisis eros. 
@@ -141,7 +162,14 @@
 						</p>
 					</div>
 					<div class="col col-3">
-						<h4>Etudes</h4>
+						<div class="slider-wrapper">
+							<div class="slider">
+							  <div><img class="img-responsive" src="images/SMB/SMB.jpg" alt=""></div>
+							  <div><img class="img-responsive" src="images/SMB/SMB2.jpg" alt=""></div>
+							  <div><img class="img-responsive" src="images/SMB/SMB.jpg" alt=""></div>
+							</div>	
+						</div>
+						<h4>Super Meat Boy</h4>
 							<p>lorem ipsum dolor sit amet, consectetur adipiscing elit. in eu dapibus felis.</p>
 						<p> 
 							praesent et mauris fermentum, imperdiet diam non, facilisis eros. 
