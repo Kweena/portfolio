@@ -134,8 +134,6 @@ h4{
 	margin-top: 0;
 }
 
-
-
 .underlined-title:after{
 	content: "";
     display: block;
@@ -192,7 +190,7 @@ h4{
 }
 
 .slider{
-	width: 450px;
+	width: 720px;
 }
 
 @media screen and (max-width: 1024px){
@@ -228,8 +226,16 @@ h4{
 	background : rgba(169, 140, 60, 0.8) ;
 }
 
-.btn-toogle-menu{
+.btn-toggle-menu{
 	display: none;
+}
+
+.fp-controlArrow.fp-prev{
+	border-color : transparent rgba(169, 140, 60, 0.8) transparent transparent;
+}
+
+.fp-controlArrow.fp-next{
+	border-color : transparent transparent transparent rgba(169, 140, 60, 0.8);
 }
 
 @media screen and (max-width: 600px){
